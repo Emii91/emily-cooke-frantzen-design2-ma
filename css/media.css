@@ -1,0 +1,42 @@
+@media only screen and (max-width: 700px) {
+    .toggle {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 10px;
+    }
+    .toggle .line {
+        width: 30px;
+        height: 3px;
+        background: grey;
+        margin: 6px 0;
+    }
+    .nav-bar {
+        position: absolute;
+        height: 0px;
+        top: 120px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: white;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+    .nav-bar.active{
+        height: 450px;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+    .nav-bar.active ul {
+        opacity: 1;
+    }
+    .nav-bar ul li a {
+        margin-bottom: 12px;
+    }
+}

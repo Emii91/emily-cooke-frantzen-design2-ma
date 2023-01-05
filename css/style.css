@@ -1,0 +1,44 @@
+
+
+/* NAV & HEADER */
+
+.logo {
+    max-width: 120px;
+    margin-top: 30px;
+    position: absolute;
+    top: -30px;
+    left: 20px;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.toggle {
+    display: none;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul li a {
+    display: block;
+    color: gray;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+.nav-bar ul li a.active {
+    text-decoration: underline;
+    color: #AF8479;
+}
+
+
