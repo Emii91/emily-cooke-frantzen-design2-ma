@@ -1,9 +1,12 @@
-
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* NAV & HEADER */
 
 .logo {
-    max-width: 120px;
+    max-width: 115px;
     margin-top: 30px;
     position: absolute;
     top: -30px;
@@ -34,6 +37,7 @@ header {
     padding: 10px 25px;
     margin: 0 5px;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-bar ul li a.active {

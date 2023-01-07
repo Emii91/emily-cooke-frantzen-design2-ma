@@ -1,0 +1,38 @@
+div.about {
+    margin-top: 20px;
+    height: 80vh;
+    background-image: url(../images/about2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about-content {
+    background-color: #D3C3B2;
+    height: 50vh;
+    background-color: #EFEAE6;
+    opacity: 1;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #EFEAE6 4px ), repeating-linear-gradient( #D3C3B255, #D3C3B2 );
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    padding: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about-botton {
+    height: 80vh;
+    background-image: url(../images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
