@@ -48,12 +48,12 @@ header {
 
 .nav-bar ul li a.active {
     text-decoration: underline;
-    color: #567A87;
+    color: #925140
 }
 
 footer {
     min-height: 20vh;
-    background-color: #567A87;
+    background-color: #925140
 }
 
 p.copy {
