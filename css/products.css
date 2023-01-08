@@ -1,0 +1,32 @@
+.products {
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #EFEAE6 4px ), repeating-linear-gradient( #D3C3B255, #D3C3B2 );
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    padding: 40px;
+}
+
+.product-text p {
+    font-size: 14px;
+}
+
+.product-text p,
+.product-text a {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+.product-text a:hover {
+    background-color: #D3C3B2;
+    transition: 0.5s;
+}
+
+.product-details img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    vertical-align: middle;
+}

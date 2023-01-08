@@ -1,6 +1,6 @@
 div.about {
     margin-top: 20px;
-    height: 80vh;
+    min-height: 80vh;
     background-image: url(../images/about2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ div.about {
 
 .about-content {
     background-color: #D3C3B2;
-    height: 50vh;
+    min-height: 30vh;
     background-color: #EFEAE6;
     opacity: 1;
     background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #EFEAE6 4px ), repeating-linear-gradient( #D3C3B255, #D3C3B2 );

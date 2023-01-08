@@ -1,3 +1,20 @@
+@media only screen and (max-width: 1300px) {
+    .products {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .middle {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 50px;
+    }
+    .products {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .toggle {
         display: block;
@@ -40,4 +57,30 @@
     .nav-bar ul li a {
         margin-bottom: 12px;
     }
+    .top-link {
+        font-size: 30px;
+    }
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
+@media only screen and (max-width: 640px) {
+    .middle {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-content p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .top-link {
+        font-size: 20px;
+    }
+    .about-content p {
+        font-size: 14px;
+        padding: 50px;
+    }
+}
+
