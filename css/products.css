@@ -1,10 +1,38 @@
+.product-top {
+    height: 100vh;
+    margin-top: 20px;
+    background-image: url(../images/20230121_105358.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: grayscale(30%);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: #efeae6ad;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    padding: 15px 0px;
+    font-weight: 300;
+}
+
 .products {
     background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #EFEAE6 4px ), repeating-linear-gradient( #D3C3B255, #D3C3B2 );
     display: grid;
     place-items: center;
     grid-template-columns: repeat(4, 1fr);
-    margin-top: 30px;
     padding: 40px;
+}
+
+.product-text {
+    background-color: #efeae6ad;
+    padding: 10px;
 }
 
 .product-text p {
@@ -30,3 +58,4 @@
     margin-top: 30px;
     vertical-align: middle;
 }
+

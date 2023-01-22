@@ -1,0 +1,49 @@
+.inspo-top {
+    height: 100vh;
+    margin-top: 20px;
+    background-image: url(../images/inspo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    background-color: #efeae6ad;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    padding: 15px 0px;
+    font-weight: 300;
+}
+
+h2,
+p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    padding-top: 80px;
+}
+
+.inspo-content {
+    background-color: #D3C3B2;
+    min-height: 40vh;
+    background-color: #EFEAE6;
+    opacity: 1;
+    background-image: repeating-radial-gradient( circle at 0 0, transparent 0, #EFEAE6 4px ), repeating-linear-gradient( #D3C3B255, #D3C3B2 );
+}
+
+.inspo-middle {
+    height: 100vh;
+    background-image: url(../images/inspoo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

@@ -29,9 +29,9 @@ p {
     text-align: center;
 }
 
-.about-botton {
+.about-bottom {
     height: 80vh;
-    background-image: url(../images/about.jpg);
+    background-image: url(../images/vase.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

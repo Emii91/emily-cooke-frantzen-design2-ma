@@ -48,12 +48,18 @@ header {
 
 .nav-bar ul li a.active {
     text-decoration: underline;
-    color: #925140
+    color: #925140;
+}
+
+svg {
+    height: 80px;
+    padding-top: 10px;
 }
 
 footer {
     min-height: 20vh;
-    background-color: #925140
+    background-color: #925140;
+    text-align: center;
 }
 
 p.copy {
