@@ -8,7 +8,7 @@ section.top {
 }
 
 .top-link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Suranna', sans-serif;
     text-align: center;
     font-size: 40px;
     background-color: #efeae6ad;
@@ -66,7 +66,7 @@ a.right-link:hover {
     text-align: center;
     color: black;
     padding: 50px;
-
+    font-weight: lighter;
 }
 
 .bottom {
@@ -80,8 +80,8 @@ a.right-link:hover {
 }
 
 .bottom h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
+    font-family: 'Suranna', sans-serif;
+    font-size: 30px;
     text-align: center;
     margin: 20px;
     padding-top: 50px;

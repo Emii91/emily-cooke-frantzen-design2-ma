@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Suranna', sans-serif;
     text-align: center;
     font-size: 40px;
     background-color: #efeae6ad;
@@ -21,7 +21,12 @@ h1 {
     font-weight: 300;
 }
 
-h2,
+h2 {
+    font-family: 'Suranna', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
